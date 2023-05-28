@@ -2,12 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
 
 
 /*-----------------------------------*\
@@ -384,8 +378,30 @@ body {
 }
 
 
-
-
+/* float left phone icon */
+.floating-phone{
+  position: fixed;
+  bottom: 20px;
+  left: 5%;
+  z-index: 999;
+  background-color: #fff;
+  color: green;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.floating-phone:hover{
+  transform: scale(1.1);
+  background-color: #fff;
+  color: green;
+}
+.floating-phone a{
+  color: green;
+  text-decoration: none;
+  font-size: 20px;
+}
 
 /*-----------------------------------*\
   #HERO
