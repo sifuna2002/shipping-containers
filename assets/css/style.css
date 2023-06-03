@@ -1328,3 +1328,17 @@ body {
   .footer-top { padding-block: 60px; }
 
 }
+.sales{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .sales{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  
+}
