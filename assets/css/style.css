@@ -1342,3 +1342,38 @@ body {
   }
   
 }
+
+.verticalLine {
+  margin-left: 5px;
+  border-left: medium solid hsl(202, 75%, 47%);
+  padding: 10px;
+}
+
+.delivery-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.delivery-card {
+  transition: 0.3s;
+}
+
+/* on smaller screens flex col */
+@media screen and (max-width: 768px) {
+  .delivery-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .delivery-card {
+    transition: 0.3s;
+    width: 100%;
+  }
+}
