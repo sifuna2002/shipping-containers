@@ -1,5 +1,4 @@
 <div align="center">
-  <br />
 
   <h2 align="center">Shipping Containers</h2>
 
