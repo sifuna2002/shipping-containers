@@ -24,13 +24,13 @@ To run **Shipping** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/transportio.git
+sudo git clone https://github.com/sifuna2002/shipping-containers.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/transportio.git
+git clone https://github.com/sifuna2002/shipping-containers.git
 ```
 
 ### Contact
