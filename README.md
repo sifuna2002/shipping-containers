@@ -8,7 +8,7 @@
 
 </div>
 
-<br /
+<br />
 
 ### Prerequisites
 
